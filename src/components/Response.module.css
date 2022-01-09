@@ -1,0 +1,30 @@
+.container{
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: all .3s ease;
+}
+.selected{
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border:  4px solid green;
+    transition: all .3s ease;
+}
+.container:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+}
+.selected:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+}

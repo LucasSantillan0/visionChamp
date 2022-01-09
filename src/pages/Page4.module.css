@@ -1,0 +1,47 @@
+.container{
+
+    z-index: -50;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    background-image: url(../images/2/Asset\ 2PP@1X.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.container h4{
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+    width: fit-content;
+    margin: 60px auto;
+}
+.container img{
+    max-width:550px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.box{
+    width: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid green;
+    margin: 0 auto;
+    padding: 25px;
+    gap:40px;
+    background-color: navy;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+.texts{
+    width: 30vw;
+
+}
+.texts p{
+    background-color: white;
+    padding: 20px 5px;
+    border-radius: 2px;
+    border: 1px solid black;
+}

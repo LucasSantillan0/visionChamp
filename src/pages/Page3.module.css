@@ -1,0 +1,28 @@
+.container{
+
+    z-index: -50;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    background-image: url(../images/2/Asset\ 2PP@1X.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.container img{
+    margin:20vh auto 0 auto;
+    border: 3px solid green;
+    border-radius: 3px;
+}
+.container div{
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    width: 60vw;
+    height: 20vh;
+    margin: 50px auto;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
