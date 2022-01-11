@@ -28,8 +28,8 @@
 }
 @media (max-width: 600px) {
     .container{
-        height:130vh;
-        background-size: 300vw 130vh;
+        height:145vh;
+        background-size: 355vw 145vh;
         background-position: 100% 0;
     }
 
