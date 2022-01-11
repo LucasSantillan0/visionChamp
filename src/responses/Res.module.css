@@ -24,6 +24,7 @@
     width: 6.9282em;
     background-color: rgb(58, 58, 58);
     color: white;
+
   }
 
 .hexagon::before {
@@ -50,4 +51,12 @@
     position: absolute;
     right: 0;
     width:0;
+  }
+  @media (max-width: 600px) {
+
+    .container{
+      flex-direction: column;
+      gap: 1vh;
+    }
+
   }

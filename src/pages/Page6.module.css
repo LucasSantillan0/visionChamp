@@ -26,3 +26,11 @@
     gap: 15px;
     margin-bottom: 45px;
 }
+@media (max-width: 600px) {
+    .container{
+        height:130vh;
+        background-size: 300vw 130vh;
+        background-position: 100% 0;
+    }
+
+}

@@ -17,3 +17,17 @@
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
+@media (max-width: 600px) {
+    .container{
+        background-size: 300vw 100vh;
+        background-position: 100% 0;
+    }
+    .images{
+
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 2vh;
+        margin-bottom: 20px;
+    }
+
+}

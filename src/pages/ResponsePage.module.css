@@ -67,3 +67,22 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 600px) {
+    .container{
+        height:250vh;
+        background-size: 400vw 250vh;
+        background-position: 100% 0;
+
+    }
+    .container article{
+        width: 85vw;
+    }
+    .response{
+        gap: 10px;
+    }
+    .responses{
+        gap: 10px;
+        position: initial;
+        margin-top: 25px;
+    }
+}

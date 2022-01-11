@@ -26,3 +26,15 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 600px) {
+    .container{
+        background-size: 300vw 100vh;
+        background-position: 100% 0;
+    }
+    .container img{
+        max-width:85vw;
+    }
+    .situation{
+        padding: 15px;
+    }
+}

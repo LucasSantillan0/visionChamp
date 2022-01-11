@@ -45,3 +45,24 @@
     border-radius: 2px;
     border: 1px solid black;
 }
+@media (max-width: 600px) {
+    .container{
+        height:120vh;
+        background-size: 300vw 120vh;
+        background-position: 100% 0;
+    }
+    .container h4{
+        margin: 10px auto;
+    }
+    .box{
+        padding: 5px;
+        flex-direction: column-reverse;
+        gap: 5px;
+    }
+    .texts{
+        width: 80vw;
+    }
+    .container img{
+        max-width:85vw;
+    }
+}

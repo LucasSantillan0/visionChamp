@@ -18,3 +18,13 @@
     margin-top: 35vh;
 
 }
+@media (max-width: 600px) {
+    .container{
+        background-size: 300vw 100vh;
+        background-position: 100% 0;
+    }
+    .container img{
+        max-width:95vw;
+
+    }
+}
