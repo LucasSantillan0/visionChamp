@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60vw;
+    margin: 0 auto;
+    position: relative;
+    top: 5vh;
+    gap:5vw;
+}
+.container h2{
+    font-size:2em;
+}
+.images{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:4px;
+}
+.hexagon {
+    height: 4em;
+    margin: 3.4641em 0;
+    position: relative;
+    width: 6.9282em;
+    background-color: rgb(58, 58, 58);
+    color: white;
+  }
+
+.hexagon::before {
+    border-right:3.4641em solid transparent;
+    border-bottom:2em solid rgb(58, 58, 58);;
+    border-left:3.4641em solid transparent;
+    content: '';
+    height:0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -2em;
+    width: 0;
+    
+  }
+  .hexagon::after {
+    border-top:2em solid rgb(58, 58, 58);;
+    border-right:3.4641em solid transparent;
+    border-left:3.4641em solid transparent;
+    bottom:-2em;
+    content: '';
+    height:0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width:0;
+  }

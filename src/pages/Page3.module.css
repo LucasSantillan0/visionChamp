@@ -14,7 +14,7 @@
     border: 3px solid green;
     border-radius: 3px;
 }
-.container div{
+.situation{
     border-top: 2px solid green;
     border-bottom: 2px solid green;
     width: 60vw;

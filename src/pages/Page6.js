@@ -9,7 +9,8 @@ export default function Page6 (){
     return <div className={s.container}>
         <h3>Choose your most preferred response</h3>
         <div className={s.responses}>
-            <Zoom left >
+            <Zoom left 
+            >
             <Response
             text="1"
             id={1}
