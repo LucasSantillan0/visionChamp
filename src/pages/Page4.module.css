@@ -5,7 +5,7 @@
     width: 100vw;
     position: absolute;
     top:0;
-    background-image: url(../images/2/hombre.PNG);
+    background-image: url(../images/2/Asset\ 2PP@1X.png);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@
     border-top-left-radius: 5px;
 }
 .container img{
-    max-width:550px;
+    width:400px;
     border: 2px solid gray;
     border-radius: 15px;
 }
@@ -54,12 +54,13 @@
 }
 @media (max-width: 600px) {
     .container{
-        height:120vh;
-        background-size: 300vw 120vh;
+        height:150vh;
+        background-size: 355vw 150vh;
         background-position: 100% 0;
     }
     .container h4{
-        margin: 10px auto;
+        position: initial;
+        margin: 0 auto;
     }
     .box{
         padding: 5px;
