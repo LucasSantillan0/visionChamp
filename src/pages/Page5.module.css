@@ -16,6 +16,8 @@
 .container img{
 
     margin-top: 35vh;
+    margin-bottom: 6vh;
+    width: 65vw;
 
 }
 @media (max-width: 600px) {
@@ -24,7 +26,7 @@
         background-position: 100% 0;
     }
     .container img{
-        max-width:95vw;
+        width:95vw;
 
     }
 }

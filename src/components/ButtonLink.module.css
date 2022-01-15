@@ -16,10 +16,11 @@
     font-size: large;
 } */
 .button{
+    font-size: 45px;
     font-weight: bold;
     text-decoration: none;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 80px;
     background: rgb(19,156,40);
     background: linear-gradient(165deg, rgba(19,156,40,1) 38%, rgba(81,200,62,1) 43%, rgba(101,214,69,1) 100%);
     border-radius: 5px;
@@ -34,4 +35,9 @@
 
 .button:hover{
     padding: 12px 32px;
+}
+@media (max-width: 600px) {
+    .button{
+        font-size: 1em ;
+    }
 }

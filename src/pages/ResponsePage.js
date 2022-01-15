@@ -7,8 +7,14 @@ import icon0 from "../images/ResponsePage/icon0.png"
 import estrella5 from "../images/ResponsePage/estrella5.png"
 import estrella3 from "../images/ResponsePage/estrella3.png"
 import estrella0 from "../images/ResponsePage/estrella0.png"
+import visionman from "../images/ResponsePage/visionman.png"
+import HeadShake from 'react-reveal/HeadShake';
+import Flip from 'react-reveal/Flip';
+
 export default function ResponsePage (){
     return <div className={s.container}>
+        <img className={s.visionman} src={visionman}/>
+        <HeadShake right>
         <Routes>
             <Route path="1" element={<Res1 
             image={tilde}
@@ -35,29 +41,32 @@ export default function ResponsePage (){
             points="0"
             />}/>
         </Routes>
+        </HeadShake>
+        <Flip left cascade>
         <div className={s.responses}>
-            <div className={s.response}>
+            <div className={s.response} >
                 <div>
                 <h3>1</h3>
                 <h5>Best aligned with our company vision</h5>
                 </div>
                 <article>Example</article>
             </div>
-            <div className={s.response}>
+            <div className={s.response} >
                 <div>
                 <h3>4</h3>
                 <h5>Least aligned with our company vision</h5>
                 </div>
-                <article>Example</article>
+                <article style={{backgroundColor:"black", color:"white"}}>Example</article>
             </div>
             <div className={s.response}>
                 <h5>Why Best aligned</h5>
-                <article>Example</article>
+                <article style={{backgroundColor:"gray", color:"white"}}>Example</article>
             </div>
             <div className={s.response}>
                 <h5> Why least aligned</h5>
-                <article>Example</article>
+                <article style={{backgroundColor:"gray", color:"white"}}>Example</article>
             </div>
         </div>
+        </Flip>
     </div>
 }

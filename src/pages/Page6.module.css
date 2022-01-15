@@ -14,11 +14,15 @@
     padding: 10px;
     margin: 25px auto;
     width: fit-content;
-    border-radius: 3px;
+
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: navy;
+    font-size: 1.5em;
 }
 .responses{
     margin: 0 auto;
-    width: 50vw;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

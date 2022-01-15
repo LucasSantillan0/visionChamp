@@ -11,15 +11,22 @@
 }
 .container h4{
     background-color: white;
+    color: navy;
+    font-size: 1.5em;
     padding: 10px;
-    border-radius: 2px;
+
     width: fit-content;
     margin: 60px auto;
+    position: relative;
+    top: 8vh;
+    z-index: 2;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .container img{
     max-width:550px;
     border: 2px solid gray;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .box{
     width: fit-content;
