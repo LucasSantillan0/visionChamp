@@ -1,13 +1,13 @@
 import s from "./ResponsePage.module.css"
 import { Routes, Route } from 'react-router';
 import Res1 from "../responses/Res1";
-import tilde from "../images/ResponsePage/tilde.png"
-import keepitup from "../images/ResponsePage/keepitup.png"
+import tilde from "../images/Assets/5-star-tick.png"
+import keepitup from "../images/Assets/keep-it-up.png"
 import icon0 from "../images/ResponsePage/icon0.png"
-import estrella5 from "../images/ResponsePage/estrella5.png"
-import estrella3 from "../images/ResponsePage/estrella3.png"
+import estrella5 from "../images/Assets/5-Star.gif"
+import estrella3 from "../images/Assets/3-Star.gif"
 import estrella0 from "../images/ResponsePage/estrella0.png"
-import visionman from "../images/ResponsePage/visionman.png"
+import visionman from "../images/Assets/vision-manPP.png"
 import HeadShake from 'react-reveal/HeadShake';
 import Flip from 'react-reveal/Flip';
 
@@ -17,19 +17,19 @@ export default function ResponsePage (){
         <HeadShake right>
         <Routes>
             <Route path="1" element={<Res1 
-            image={tilde}
+
             text="You live your company vision"
             star={estrella5}
             points="1500"
             />}/>
             <Route path="2" element={<Res1
-            image={keepitup}
+
             text="Good! you can do better"
             star={estrella3}
             points="1000"    
             />}/>
             <Route path="3" element={<Res1
-            image={keepitup}
+
             text="Good! you can do better"
             star={estrella3}
             points="1000"    

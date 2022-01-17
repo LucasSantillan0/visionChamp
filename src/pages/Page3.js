@@ -1,5 +1,5 @@
 import s from "./Page3.module.css"
-import situation from "../images/3/situation.png"
+import situation from "../images/Assets/situation-image.png"
 import ButtonLink from "../components/ButtonLink"
 import HeadShake from 'react-reveal/HeadShake';
 

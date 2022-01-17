@@ -5,15 +5,15 @@
     width: 100vw;
     position: absolute;
     top:0;
-    background-image: url(../images/Response/background.png);
+    background-image: url(../images/Assets/empty.jpg);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
 .visionman{
     position:absolute;
     z-index: -5;
-    top: 30px;
-    left: 200px;
+    top: 53vh;
+    left: 230px;
     width: 8vw;
 }
 .container article{
@@ -96,7 +96,8 @@
         margin-top: 25px;
     }
     .visionman{
-        width: 200px;
-        top:200px;
+        width: 150px;
+        left: 50px;
+        top:390px;
     }
 }

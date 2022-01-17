@@ -1,5 +1,5 @@
 import s from "./Page5.module.css"
-import howHandle from "../images/5/howHandle.png"
+import howHandle from "../images/Assets/how-will.png"
 import ButtonLink from "../components/ButtonLink"
 import Flip from 'react-reveal/Flip';
 

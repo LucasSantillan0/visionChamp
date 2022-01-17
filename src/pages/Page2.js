@@ -1,6 +1,6 @@
 import s from "./Page2.module.css"
-import you from "../images/2/vos.PNG"
-import hombre from "../images/2/hombre.PNG"
+import you from "../images/Assets/You.png"
+import Stakeholder from "../images/Assets/Stakeholder.png"
 import ProfileImage from "../components/ProfileImage"
 import ButtonLink from "../components/ButtonLink"
 import Bounce from 'react-reveal/Bounce';
@@ -11,11 +11,11 @@ export default function Page2(){
         <div className={s.images}>
         <ProfileImage
         image={you}
-        text="you"
+        text="YOU"
         />
         <ProfileImage
-        image={hombre}
-        text="your stakeholder"
+        image={Stakeholder}
+        text="YOUR STAKEHOLDER"
         />
         </div>
         <ButtonLink

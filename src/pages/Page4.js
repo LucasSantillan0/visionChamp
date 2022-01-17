@@ -1,5 +1,5 @@
 import s from "./Page4.module.css"
-import hombre from "../images/2/hombre.PNG"
+import hombre from"../images/Assets/Stakeholder.png"
 import ButtonLink from "../components/ButtonLink"
 import Pulse from 'react-reveal/Pulse';
 

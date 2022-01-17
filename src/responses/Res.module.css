@@ -11,6 +11,8 @@
 }
 .container h2{
     font-size:2em;
+    color: white;
+    text-shadow: black  2px 1px;
 }
 .images{
     display: flex;
@@ -52,11 +54,21 @@
     right: 0;
     width:0;
   }
+  .container.img{
+    width: 134px;
+    height: 116px;
+  }
   @media (max-width: 600px) {
 
     .container{
       flex-direction: column;
       gap: 1vh;
     }
-
+    .container.img{
+      height: 116px;
+    }
+    .container h2{
+      color: white;
+      text-shadow: black  2px 1px;
+  }
   }
